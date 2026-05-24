@@ -1,6 +1,6 @@
 const { Client, GatewayIntentBits, EmbedBuilder, ActivityType } = require("discord.js");
 const { DisTube } = require("distube");
-const { YtDlpPlugin } = require("@distube/yt-dlp");
+const { YtDlpPlugin } = require("@distube/ytdl-core");
 
 const client = new Client({
   intents: [
